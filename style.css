@@ -190,7 +190,8 @@ body {
     padding-bottom: 30px;
 }
 
-.categories__title, .categories p {
+.categories__title,
+.categories p {
     margin-bottom: 20px;
 }
 
@@ -209,6 +210,12 @@ body {
     width: 250px;
     height: 250px;
     position: relative;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.categories__container__box:hover {
+    opacity: 0.8;
 }
 
 .categories__container__box img {
@@ -224,4 +231,138 @@ body {
     left: 15px;
     color: white;
     font-size: 24px;
+}
+
+/* Explorer Styling */
+
+.explorer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.explorer__title {
+    font-size: 20px;
+}
+
+.explorer__title,
+.description {
+    margin-bottom: 20px;
+}
+
+.explorer__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.explorer__card__box {
+    width: 250px;
+    /* height: 250px; */
+    cursor: pointer;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.explorer__card__box img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.explorer__card__box img:hover {
+    opacity: 0.8;
+}
+
+.explorer__card__box h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.explorer__card__box p {
+    font-size: 13px;
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.explorer__card__box h4 {
+    font-size: 14px;
+}
+
+.heart {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+}
+
+.heart:hover {
+    opacity: 0.8;
+}
+
+.explorer__card__box h5 {
+    background-color: rgb(230, 226, 226);
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 200;
+}
+
+/* Footer Styling */
+
+.footer {
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+}
+
+.footer__section1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__section__A p {
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 2px;
+    border: 1px solid transparent;
+}
+
+.footer__section__B {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 30px;
+}
+
+.footer__section__B img {
+    width: 100px;
+}
+
+.footer__section__C {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__section__C img {
+    width: 20px;
 }
