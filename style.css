@@ -387,7 +387,7 @@ body {
         flex-basis: 40%;
     }
 
-    .search img {
+    .search__menu {
         display: none;
     }
 
